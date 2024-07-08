@@ -1,6 +1,7 @@
 package ExercicioMod12;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Exercicio1 {
@@ -26,6 +27,7 @@ public class Exercicio1 {
 			String[] elementosNoArray = elementos.split(", ");
 			System.out.println("**********MOSTRANDO ARRAY*************");
 			exibirCarregamento();
+			Arrays.sort(elementosNoArray);
 			System.out.println(Arrays.toString(elementosNoArray));
 			
 			System.out.println("Quer fechar a aplicação ? [S/N]");
